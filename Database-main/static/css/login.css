@@ -1,0 +1,274 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	height: auto;
+  }
+  a{
+	color:#fff;
+	text-decoration: none;
+  }
+  
+  .navlist{
+	width: 100%;
+	padding: 15px 15vw;
+	position: fixed;
+	background-color:#003659;
+	z-index: 10;
+  
+  }
+  
+  .box img{
+  position: absolute;
+	left: 100px;
+	bottom: -40px;
+	width: 10px;
+	height: 10px;
+  }
+  
+  .navlist ul {
+	display: flex;
+	list-style: none;
+  }
+  .navlist ul li:first-child{
+	flex: 1;
+  }
+  .navlist h2{
+	font-family: "Poppins", sans-serif;
+	color: #fff;
+  }
+  .navlist ul a{
+	margin-left: 20px;
+	font-size: 17px;
+  }
+  .navlist ul a:hover{
+	color: rgb(151, 52, 52);
+  }
+
+body{
+	font-family: "Poppins", sans-serif;
+}
+
+.clear{
+	clear: both;
+}
+
+.main{
+	width: 100%;
+	height: 100vh;
+	background-color: #ffffff;
+}
+.word{
+	position: relative;
+color: #003659;
+font-size: 16px;
+	letter-spacing: 0.7px;
+	font-weight: 500;
+	width: 400px;
+	padding: 20px 0;
+	transform: translateX(47%);
+	bottom: -60px;
+	text-align: center;
+}
+
+.card{
+	width: 450px;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	transform: translate(-50%,-50%);
+}
+
+.card-title{
+	width: 100%;
+}
+
+.card-title h3{
+	color: #151e7e;
+	text-align: center;
+	padding: 20px 0;
+	font-weight: 500;
+}
+
+.card-title h3 > span{
+	color: #1f2c9c;
+}
+
+.card-body{
+	background-color: #ffffff;
+	padding: 10px 0px;
+	border-radius: 5px;
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+}
+
+.card-body-top{
+	width: 220%;
+	position: relative;
+	border-bottom: 1px solid #0b207e;
+}
+
+.card-body-top > .btn{
+	border: 0;
+	background-color: transparent;
+	color: #003659;
+	font-size: 16px;
+	letter-spacing: 1px;
+	font-weight: 500;
+	width: 140px;
+	padding: 20px 0;
+}
+
+
+#pointer-btn{
+	position: absolute;
+	bottom:-1px;
+	left: 20px;
+	width: 120px;
+	height: 2px;
+	background-color: #ccebfa;
+	transition: 0.5s all ease;
+}
+
+.card-body-login{
+	width: 100%;
+	padding: 15px 20px;
+	position: relative;
+}
+
+.card-body-login > #patient-form{
+	position: absolute;
+	top: 30px;
+	left: 80px;
+	text-align: center;
+	transition: 0.5s all ease;
+}
+
+.card-body-login > #doctor-form{
+	position: absolute;
+	top: 20px;
+	left: 450px;
+	text-align: center;
+	transition: 0.5s all ease;
+}
+.card-body-login > #admin-form{
+	position: absolute;
+	top: 20px;
+	left: -450px;
+	text-align: center;
+	transition: 0.5s all ease;
+}
+.submit-form{
+	background-color: #ccebfa;
+	color: rgb(23, 16, 122);
+	border: none;
+	padding: 10px 25px;
+	font-size: 15px;
+	cursor: pointer;
+	letter-spacing: 1px;
+	border-radius: 50px;
+}
+.title {
+	font-size: 2.2rem;
+	color: #0b0b25;
+	margin-bottom: 10px;
+  }
+  
+  .input-field {
+	max-width: 380px;
+	width: 100%;
+	background-color: #ccebfa;
+	margin: 10px 0;
+	height: 55px;
+	border-radius: 55px;
+	display: grid;
+	grid-template-columns: 15% 85%;
+	padding: 0 0.4rem;
+	position: relative;
+  }
+  
+  .input-field i {
+	text-align: center;
+	line-height: 55px;
+	color: #0c0a2e;
+	transition: 0.5s;
+	font-size: 1.1rem;
+  }
+ 
+  .input-field input {
+	background: none;
+	outline: none;
+	border: none;
+	line-height: 1;
+	font-weight: 600;
+	font-size: 1.1rem;
+	color: #333;
+  }
+  
+  .input-field input::placeholder {
+	color: rgb(1, 3, 8);
+	font-weight: 500;
+  }
+  
+  .social-text {
+	color: #003659;
+	padding: 0.7rem 0;
+	font-size: 1rem;
+  }
+  
+  .social-media {
+	display: flex;
+	justify-content: center;
+  }
+  
+  .social-icon {
+	height: 46px;
+	width: 46px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 0.45rem;
+	color: #003659;
+	border-radius: 50%;
+	border: 1px solid #003659;
+	text-decoration: none;
+	font-size: 1.1rem;
+	transition: 0.3s;
+  }
+  
+  .social-icon:hover {
+	color: #003659;
+	border-color: #003659;
+  }
+  .btn {
+	  width: 150px;
+	  background-color: #003659;
+	  border: none;
+	  outline: none;
+	  height: 49px;
+	  border-radius: 49px;
+	  color: #fff;
+	  text-transform: uppercase;
+	  font-weight: 600;
+	  margin: 10px 0;
+	  cursor: pointer;
+	  transition: 0.5s;
+	}
+	
+	.btn:hover {
+	  background-color: #003659;
+	}
+.box{
+position: relative;
+  left: 120px;
+  bottom: -60px;
+  background-image: url(cc5.png);
+  background-size: 95%;
+  width: 550px;
+  height: 410px;
+  border: 1px solid rgb(255, 255, 255);
+}
+	  
+	  

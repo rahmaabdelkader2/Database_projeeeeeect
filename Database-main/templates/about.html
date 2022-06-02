@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}About{% endblock %} {% block body%}
+
+<link rel="stylesheet" href="{{ url_for('static',filename='css/about.css') }}">
+
+<div class="about">
+
+    <div class="animate box">
+        <h1>   About Us </h1>
+        <h3> <i class="fas fa-ambulance"></i>Services </h3>
+        <p>There are dozens upon dozens of services that a cardiology office may offer. </p>
+    </div>
+
+    <div class="animate box box1">
+        <h3> <i class="fas fa-procedures"></i> Operating  rooms </h3>
+        <p>Our department includes multiple high-equipmented operating rooms </p>
+    </div>
+
+    <div class="animate box box2">
+        <h3> <i class="fas fa-stethoscope"></i>Check-ups </h3>
+        <p>Regular examinations can detect risk factors or their signs leading to the development of cardiac diseases.</p>
+    </div>
+
+</div>    
+    
+{% endblock %}
+    

@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    height: auto;
+}
+a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.navlist{
+    width: 100%;
+    height: 7%;
+    padding: 15px 15vw;
+    position: fixed;
+    background-color:#003659;
+    z-index: 10;
+
+}
+
+.box img{
+	position: absolute;
+	  left: 100px;
+	  bottom: -58px;
+	  width: 180px;
+	  height: 10px;
+	}
+
+.navlist ul {
+    display: flex;
+    list-style: none;
+}
+.navlist ul li:first-child{
+    flex: 1;
+}
+.navlist h2{
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+.navlist ul a{
+    margin-left: 20px;
+    font-size: 17px;
+}
+.navlist ul a:hover{
+    color: rgb(151, 52, 52);
+}
+.header{
+    position: relative;
+    /* padding: 5px 120px; */
+    text-align: center;
+    top: -3%;
+    color: #FFFFFF;
+    font-size:larger;
+}
+
+.header_reg{
+    position: relative;
+    /* padding: 5px 120px; */
+    text-align: center;
+    top: -7%;
+    color: #FFFFFF;
+    font-size:larger;
+}
+.border{
+    transform: translateY(25%);
+    padding: 50px 50px;
+    width: 350px;
+    height: 500px;
+    border: 2px solid #003659;
+    border-radius: 6px;
+    background-color: #003659;
+}
+
+.border_reg{
+    transform: translateY(20%);
+    padding: 50px 50px;
+    width: 350px;
+    height: 600px;
+    border: 2px solid #003659;
+    border-radius: 6px;
+    background-color: #003659;
+}
+.btn {
+    transform: translateY(-50%);
+    padding: 10px 40px;
+    background-color: #ffffffb7; 
+    color: #03042e;
+    font-style: oblique;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.bottun{
+    transform: translateY(-75%);
+    padding: 10px 40px;
+    background-color: #ffffffb7; 
+    color: #03042e;
+    font-style: oblique;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.textbox{
+    
+    transform: translateY(-70%);
+    padding: 10px 40px;
+    
+    background-color: #ffffffc0; 
+    color: #0b0b0bc7;
+    border-radius: 10px;
+}
+     
+.text_box{
+
+    transform: translateY(-150%);
+    padding: 10px 40px;
+    
+    background-color: #ffffffc0; 
+    color: #0b0b0bc7;
+    border-radius: 10px;
+}
+
+::placeholder {
+    position: relative;
+    top: -10%;
+    color: #02121a;
+    opacity: 1;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.word{
+    color: #fcfcfcc4;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.bottom{
+    color: #95b5c5;
+    font-style: oblique;
+    font-weight: bold;
+}

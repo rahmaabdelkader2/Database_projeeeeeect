@@ -1,0 +1,282 @@
+{% extends "base.html" %}
+{% block title %}Devices{% endblock %} {% block body %}
+
+<link rel="stylesheet" href="{{ url_for('static',filename='css/devices.css') }}">
+
+
+
+<div class="container">
+
+   <h3 class="title">Cardiology Devices </h3>
+
+   <div class="products-container">
+
+      <div class="product" data-name="p-1">
+         <img src="../static/sources/Echocardiogram.jpg" alt="">
+         <h3>Echocardiogram</h3>
+         
+      </div>
+
+      <div class="product" data-name="p-2">
+         <img src=" ../static/sources/unnamed.jpg " alt="">
+       
+         <h3>Heart-Lung Bypass Machines</h3>
+      </div>
+
+      <div class="product" data-name="p-3">
+         <img src="../static/sources/Deffblirator.jpg" alt="">
+         <h3>Defibrillator</h3>
+        
+      </div>
+
+      <div class="product" data-name="p-4">
+         <img src="../static/sources/ultrasonic.jpg" alt="">
+         <h3>Vascular ultrasound machine
+       </h3>
+        
+      </div>
+
+      <div class="product" data-name="p-5">
+         <img src="../static/sources/Intra.jpg" alt="">
+         <h3>Intra aortic balloon pump machine
+       </h3>
+         
+      </div>
+
+      <div class="product" data-name="p-6">
+         <img src="../static/sources/infusion-pump-machine-500x500.jpg" alt="">
+         <h3>Infusion pump</h3>
+      </div>
+      <div class="product" data-name="p-7">
+       <img src="../static/sources/c-arm.jpg" alt="">
+       <h3>C-Arm fluoroscopy machine</h3>
+    </div>
+    <div class="product" data-name="p-7">
+       <img src="../static/sources/doppler.jpg" alt="">
+       <h3>Vascular Doppler</h3>
+    </div>
+   </div>
+
+</div>
+
+<div class="products-preview">
+
+   <div class="preview" data-target="p-1">
+      <button type="button" class="btn_devices">
+         <a href="/devices">x</a>  
+        </button>
+      <i class="fas fa-times"></i>
+      <img src="../static/sources/Echocardiogram.jpg" alt="">
+      <h3>Echocardiogram</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span></span>
+      </div>
+       <p>Echocardiogram  can help diagnose and monitor certain heart conditions by checking the structure of the heart and surrounding blood vessels, analyzing how blood flows through them, and assessing the pumping chambers of the heart.
+   </p>           
+   </div>
+
+   <div class="preview" data-target="p-2">
+      <button type="button" class="btn_devices">
+         <a href="/devices">x</a>  
+        </button>
+      <i class="fas fa-times"></i>
+      <img src="../static/sources/unnamed.jpg" alt="">
+      <h3>Heart-Lung Bypass Machines</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span></span>
+      </div>
+       <p>The heart-lung machine is also called a cardiopulmonary bypass machine. It takes over for the heart by replacing the heart's pumping action and by adding oxygen to the blood. This means that the heart will be still for the operation, which is necessary when the heart has to be opened (open heart surgery).
+       </p>
+   </div>
+
+   <div class="preview" data-target="p-3">
+      <button type="button" class=".btn_device">
+         <a href="/devices">x</a>  
+        </button>
+      <i class="fas fa-times"></i>
+      <img src="../static/sources/Deffblirator.jpg" alt="">
+      <h3>Defibrillator</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span></span>
+      </div>
+      <p>A defibrillator is a device that gives a high energy electric shock to the heart of someone who is in cardiac arrest. This high energy shock is called defibrillation, and it's an essential part in trying to save the life of someone who's in cardiac arrest.</p>
+   </div>
+
+   <div class="preview" data-target="p-4">
+      <button type="button" class=".btn_device">
+         <a href="/devices">x</a>  
+        </button>
+      <i class="fas fa-times"></i>
+      <img src="../static/sources/ultrasonic.jpg" alt="">
+      <h3>vascular ultrasound machine
+   </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span></span>
+      </div>
+      <p>A vascular ultrasound system is used to help diagnose a wide variety of diseases and health concerns, including identifying blockages in the arteries, finding blood clots in the limbs, detecting aneurysms, and analyzing the potential harm of varicose veins.</p>
+   </div>
+
+   <div class="preview" data-target="p-5">
+      <button type="button" class=".btn_device">
+         <a href="/devices">x</a>  
+        </button>
+      <i class="fas fa-times"></i>
+      <img src="../static/sources/Intra.jpg" alt="">
+      <h3> Intra aortic balloon pump machine
+   </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span></span>
+      </div>
+      <p>An Intra-aortic balloon pump (IABP) is a type of therapeutic device. It helps your heart pump more blood. You may need it if your heart is unable to pump enough blood for your body. The IABP consists of a thin, flexible tube called a catheter.
+   </p>
+   </div>
+
+   <div class="preview" data-target="p-6" >
+      <button type="button" class=".btn_device">
+       <a href="/devices">x</a>  
+      </button>
+      <i class="fas fa-times"></i>
+      <img src="../static/sources/infusion-pump-machine-500x500.jpg" alt="">
+      <h3>Infusion pump</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span></span>
+      </div>
+      <p>Infusion pumps may be capable of delivering fluids in large or small amounts, and may be used to deliver nutrients or medications – such as insulin or other hormones, antibiotics, chemotherapy drugs, and pain relievers.
+   </p>
+   </div>
+   <div class="preview" data-target="p-7">
+      <button type="button" class=".btn_device">
+         <a href="/devices">x</a>  
+        </button>
+       <i class="fas fa-times"></i>
+       <img src="../static/sources/c-arm.jpg" alt="">
+       <h3>C-Arm fluoroscopy machine</h3>
+       <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <span></span>
+       </div>
+       <p>A C-arm provides high-resolution, real-time fluoroscopic x-ray imaging during surgical, orthopedic, and emergency care procedures. C-arm design consists of an x-ray source and an x-ray detector, with the characteristic C-shaped arm used to connect the two elements while allowing access to a variety of positioning capabilities. DRE offers factory new and professionally refurbished C-arms, ideal for use in any imaging suite.
+    </p>
+    </div>
+    <div class="preview" data-target="p-8">
+      <button type="button" class=".btn_device">
+         <a href="/devices">x</a>  
+        </button>
+       <i class="fas fa-times"></i>
+       <img src="../static/sources/doppler.jpg" alt="">
+       <h3>Vascular Doppler
+       </h3>
+       <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <span></span>
+       </div>
+       <p>Vascular ultrasound provides pictures of the body's veins and arteries. Doppler ultrasound is a special ultrasound technique that evaluates blood flow through a blood vessel, including the body's major arteries and veins in the abdomen, arms, legs and neck.
+    </p>
+    </div>
+  
+</div>
+<div class="footer">
+   <p class="address">
+     <div id="egypt">Cardiology Department <br><br>
+       New Cairo . Fifth settlement</div>
+       <div id="hotline"> <i  class=" hline fa-solid fa-headset" ></i>  Hotline 16520 <br>  <br>
+         <i  class=" tel fa-solid fa-phone"></i>  Tel:+215452102154 <br> <br>
+         <i   class=" fax fa-solid fa-fax"></i>   Fax:+56644565645</div><br>
+       <div class="social">
+         <div class="social__container">
+          
+         <div >
+           <!-- <i class= 'social__content bx bxl-linkedin social__
+             icon'><a href="linkedin.com"></a></i> -->
+             <a href="https://www.linkedin.com/" target="_blank"><i class=" linked fa-brands fa-linkedin"></i></a>
+         </div>
+     
+         <div >
+          <a href="https://www.twitter.com/" target="_blank"><i class='twitter fa-brands fa-twitter ' ></i></a>
+         </div>
+
+           <div >
+             <a href="https://www.youtube.com/" target="_blank"><i class='youtube fa-brands fa-youtube ' ></i></a>
+           </div>
+
+          
+             <a href="https://www.facebook.com/" target="_blank"><i class='facebook fa-brands fa-facebook ' ></i></a>
+           </div>
+     
+              
+             </div>
+    </div>
+   </p>
+</div>
+<script>
+   let preveiwContainer = document.querySelector('.products-preview');
+let previewBox = preveiwContainer.querySelectorAll('.preview');
+
+document.querySelectorAll('.products-container .product').forEach(product =>{
+  product.onclick = () =>{
+    preveiwContainer.style.display = 'flex';
+    let name = product.getAttribute('data-name');
+    previewBox.forEach(preview =>{
+      let target = preview.getAttribute('data-target');
+      if(name == target){
+        preview.classList.add('active');
+      }
+    });
+  };
+});
+
+previewBox.forEach(close =>{
+  close.querySelector('.fa-times').onclick = () =>{
+    close.classList.remove('active');
+    preveiwContainer.style.display = 'none';
+  };
+});
+</script>
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
+{% endblock %}
+
+
+
+
+
+
+

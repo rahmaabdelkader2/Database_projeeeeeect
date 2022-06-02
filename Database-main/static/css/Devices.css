@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    height: auto;
+}
+
+a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.navlist{
+    width: 100%;
+    padding: 15px 15vw;
+    position: fixed;
+    background-color:#003659;
+    z-index: 10;
+
+}
+
+.box img{
+	position: absolute;
+	  left: 100px;
+	  bottom: -58px;
+	  width: 180px;
+	  height: 150px;
+	}
+
+.navlist ul {
+    display: flex;
+    list-style: none;
+}
+.navlist ul li:first-child{
+    flex: 1;
+}
+.navlist h2{
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+.navlist ul a{
+    margin-left: 20px;
+    font-size: 17px;
+}
+.navlist ul a:hover{
+    color: rgb(253, 245, 8);
+}
+
+
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+}
+
+body{
+   background: #eee;
+}
+
+.btn_devices{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    transform:translateY(10%);
+    transform: translateX(650%);
+    background-color: #4c98d3;
+    border-color: #4c98d3;
+    margin-bottom:  10px; ;
+}
+
+.btn_device{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    transform:translateY(10%);
+    transform: translateX(650%);
+    background-color: #4c98d3;
+    border-color: #4c98d3;
+    margin-bottom:  10px; ;
+}
+
+.container{
+   max-width: 1200px;
+   margin:0 auto;
+   padding:3rem 2rem;
+}
+
+.container .title{
+    margin-top: 40px;
+   font-size: 3.5rem;
+   color:#003659;
+   margin-bottom: 3rem;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+.container .products-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+   gap:2rem;
+}
+
+.container .products-container .product{
+   text-align: center;
+   padding:3rem 2rem;
+   background: #fff;
+   box-shadow: 0 .5rem 1rem #525e67;
+   outline: .1rem solid #ccc;
+   outline-offset: -1.5rem;
+   cursor: pointer;
+}
+
+.container .products-container .product:hover{
+   outline: .2rem solid #4c98d3;
+   outline-offset: 0;
+}
+
+.container .products-container .product img{
+   height: 17rem;
+   border-radius: 10px;
+}
+
+.container .products-container .product:hover img{
+   transform: scale(.9);
+}
+
+.container .products-container .product h3{
+    margin-top: 20px;
+   padding:.5rem 0;
+   font-size: 2rem;
+   color:#003659;
+}
+
+.container .products-container .product:hover h3{
+   color:#4c98d3;
+}
+
+
+.products-preview{
+   position: fixed;
+   top:0; left:0;
+   min-height: 100vh;
+   width: 100%;
+   background: rgba(0,0,0,.8);
+   display: none;
+   align-items: center;
+   justify-content: center;
+}
+
+.products-preview .preview{
+   display: none;
+   padding:2rem;
+   text-align: center;
+   background: #fff;
+   position: relative;
+   margin:2rem;
+   width: 40rem;
+}
+
+.products-preview .preview.active{
+   display: inline-block;
+}
+
+.products-preview .preview img{
+   height: 25rem;
+}
+
+.products-preview .preview .fa-times{
+   position: absolute;
+   top:1rem; right: 1.5rem;
+   cursor: pointer;
+   color:#27ae60;
+   font-size: 4rem;
+}
+
+.products-preview .preview .fa-times:hover{
+   transform: rotate(90deg);
+}
+
+.products-preview .preview h3{
+   color:#444;
+   padding:.5rem 0;
+   font-size: 2.5rem;
+   margin-top: 25px;
+}
+
+.products-preview .preview .stars{
+   padding:1rem 0;
+   font-size: 1.7rem;
+}
+
+.products-preview .preview .stars i{
+   color:#27ae60;
+}
+
+.products-preview .preview .stars span{
+   color:#999;
+}
+
+.products-preview .preview p{
+   line-height: 1.5;
+   padding:0.5rem 0;
+   font-size: 1.6rem;
+   color:#777;
+}
+@media (max-width:991px){
+
+   html{
+      font-size: 55%;
+   }
+
+}
+
+@media (max-width:768px){
+
+   .products-preview .preview img{
+      height: 25rem;
+   }
+
+}
+
+@media (max-width:450px){
+
+   html{
+      font-size: 50%;
+   }
+
+}
+footer{
+    margin: 40px;
+    background-color: #ccc;
+}
+footer ul{
+    display: flex;
+}
+footer ul li{
+    margin: 10px;
+    list-style: none;
+    justify-content: center;
+}
+@media(max-width: 600px){
+    .content-box .row{
+        flex-direction: column;
+    }
+    .content-box .column{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .content-box .column a:last-child{
+        line-height: 60vw;
+        font-size: 15vw;
+    }
+    
+}
+.space{
+    margin-top: 2%;
+}
+.large-6{
+position: relative;
+float: left;
+padding-left: 2%;
+width: 100%;
+margin-bottom: 4%;
+}
+.footer{
+    position: relative;
+    background-color: #003659;
+    opacity: 95%;
+    width: 100%;
+    height: 20vh;
+    bottom: 0% !important;
+    overflow: hidden;
+    
+}
+.linked{
+    height: 35px;
+    color: seashell;
+    width: 37px;
+    position: absolute;
+    padding: 9px;
+    margin: 40px;
+    border: #003659;
+    border: solid;
+    border-radius: 50%;
+    cursor: pointer;
+    top: 39%;
+    left: 82%;}
+
+.twitter{
+    color: seashell;
+    height: 35px;
+    width: 37px;
+    position: absolute;
+    padding: 9px;
+    margin: 40px;
+    border: #003659;
+    border: solid;
+    border-radius: 50%;
+    cursor: pointer;
+    top: -4%;
+    left: 88%;
+}
+#hotline{
+    position: absolute;
+    left: 48%;
+    color: seashell;
+    top: 24%
+}
+
+
+.youtube{
+    color: seashell;
+    height: 35px;
+    width: 37px;
+    position: absolute;
+    padding: 9px;
+    margin: 40px;
+    border: #003659;
+    border: solid;
+    border-radius: 50%;
+    cursor: pointer;
+    top: -4%;
+    left: 82%;
+}
+.address{
+    color: seashell;
+    
+}
+.facebook{
+    color: seashell;
+    height: 35px;
+    width: 37px;
+    position: absolute;
+    padding: 9px;
+    margin: 40px;
+    border: #003659;
+    border: solid;
+    border-radius: 50%;
+    cursor: pointer;
+    top: 38%;
+    left: 88%;
+    
+}
+#egypt{
+    color:seashell ;
+    position: relative;
+    margin: 2%;
+    top:17%;
+    left: 10%;
+}
+.facebook:hover{
+    color:rgb(253, 245, 8) ;
+}
+.youtube:hover{
+    color:rgb(253, 245, 8);
+}
+.twitter:hover{
+    color:rgb(253, 245, 8);
+}
+.linked:hover{
+    color:rgb(253, 245, 8);
+}
+.hline:hover{
+    color:rgb(253, 245, 8); 
+}
+.tel:hover{
+    color:rgb(253, 245, 8); 
+}
+.fax:hover{
+    color:rgb(253, 245, 8); 
+}
+a {
+    text-decoration: none !important;
+    /* overflow: scroll !important; */
+}
